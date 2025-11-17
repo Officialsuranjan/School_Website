@@ -1,0 +1,51 @@
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:url('notice-bg.jpg') no-repeat center/cover;
+  color:white
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 30px;
+  background:rgba(0,0,0,0.6)
+}
+.nav a{
+  color:white;
+  margin-left:15px;
+  text-decoration:none
+}
+.nav a:hover{
+  color:#cbd632
+}
+.nav a.active{
+  border-bottom:2px solid #fff
+}
+.notice-main{
+  background:rgba(255,255,255,0.9);
+  color:#222;
+  margin:60px auto;
+  padding:30px;
+  border-radius:12px;
+  width:80%;
+  max-width:800px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+.notice-main h1{
+  text-align:center;
+  color:#2b6cb0;
+  margin-bottom:20px
+}
+.notice-list{
+  list-style-type:circle;
+  line-height:1.8
+}
+.notice-list li{
+  margin-bottom:10px
+}
+footer{
+  text-align:center;
+  padding:10px;
+  background:rgba(0,0,0,0.6)
+}
