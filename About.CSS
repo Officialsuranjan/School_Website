@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #222;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: rgba(0, 0, 0, 0.55);
+  color: white;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.nav a:hover {
+  color: #f0e68c;
+}
+.nav a.active {
+  border-bottom: 2px solid #fff;
+}
+.hero {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(252, 252, 252);
+  background-color: #72a6d6;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.about-main {
+  background: rgba(255, 255, 255, 0.95);
+  width: 85%;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+.about-section h2 {
+  color: #2b6cb0;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+.about-section p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+.gallery {
+  margin-top: 50px;
+  text-align: center;
+}
+.gallery h2 {
+  color: #2b6cb0;
+  margin-bottom: 15px;
+}
+.gallery-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-container img {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-container img:hover {
+  transform: scale(1.05);
+}
+.mission-vision {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+  gap: 20px;
+}
+.card {
+  background: #f8fafc;
+  border-left: 10px solid #2b6cb0;
+  padding: 20px;
+  border-radius: 12px;
+  width: 45%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.card h3 {
+  color: #2b6cb0;
+  margin-bottom: 10px;
+}
+.principal {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.principal-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+.principal-text h2 {
+  color: #2b6cb0;
+  margin-bottom: 10px;
+}
+footer {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 15px 0;
+  margin-top: 40px;
+}
